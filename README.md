@@ -1,6 +1,9 @@
 # qemu-arm-amazon-linux
 how to build qemu-system-arm on amazon linux
 
+<code>
+<pre>
+
 # 1. install development tools 
 sudo yum groupinstall "Development Tools"
 
@@ -17,3 +20,6 @@ cd qemu-2.11.0
 
 # 5. build
 make -j 2
+
+</pre>
+</code>
